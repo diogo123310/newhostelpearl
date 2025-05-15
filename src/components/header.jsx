@@ -19,7 +19,7 @@ export default function Header() {
             ABOUT US
           </a>
         </nav>
-        <img src={LogoImage} alt="Logo" className="w-16 h-16 rounded-full" />
+        <img src={LogoImage} alt="Logo" className="w-20 h-20 object-cover rounded-full border-4 border-white shadow-lg" />
         <nav>
           <div className="flex space-x-6">
             <a

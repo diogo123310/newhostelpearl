@@ -1,6 +1,12 @@
 import React from "react";
 import heroImage from '../assets/hero.jpg';
 import Header from "../components/header";
+import SingleBed from "../assets/SingleBed.png";
+import TwinBed from "../assets/Twinbed.png";
+import Suite from "../assets/Suite.png";
+
+//https://www.jdomni.com/ecommerce-themes/accommodations-template
+
 
 const LandingPage = () => {
     return (
@@ -25,6 +31,24 @@ const LandingPage = () => {
           </a>
         </div>
       </section>
+      <section id="quartos" className="py-20 text-center relative overflow-hidden">
+        <h2 className="text-3xl font-bold mb-10">Rooms</h2>
+        <div className="flex justify-center gap-20 flex-wrap">
+          <div>
+            <img src={SingleBed} alt="Single Bed" className="w-70 h-70 mx-auto mb-4 rounded-xl aspect-square shadow-lg object-cover" />
+            <p className="text-[20px]">Single Bed Non AC Room</p>
+          </div>
+          <div>
+            <img src={TwinBed} alt="Twin Bed" className="w-70 h-70 mx-auto mb-4 rounded-xl aspect-square shadow-lg object-cover" />
+            <p className="text-[20px]">Twin Bed Non AC Room</p>
+          </div>
+          <div>
+            <img src={Suite} alt="Suite" className="w-70 h-70 mx-auto mb-4 rounded-xl aspect-square shadow-lg object-cover" />
+            <p className="text-[20px]">Triple Sharing- 3 Bed Non AC Room</p>
+          </div>
+        </div>
+        <hr className="my-12 border-t-4 border-blue-200 w-2/3 mx-auto rounded-full opacity-80" />
+      </section>
 
       <section id="sobre" className="py-20 bg-white text-center">
         <h2 className="text-3xl font-bold mb-7">Sobre Nós</h2>
@@ -33,12 +57,7 @@ const LandingPage = () => {
         </p>
       </section>
 
-      <section id="quartos" className="py-20 bg-gray-100 text-center">
-        <h2 className="text-3xl font-bold mb-4">Quartos</h2>
-        <p className="max-w-xl mx-auto text-gray-700">
-          Temos quartos individuais, duplos e dormitórios com Wi-Fi, ar-condicionado e muito mais.
-        </p>
-      </section>
+      
 
       <section id="contactos" className="py-20 bg-white text-center">
         <h2 className="text-3xl font-bold mb-4">Contactos</h2>
