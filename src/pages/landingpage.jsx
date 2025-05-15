@@ -13,7 +13,7 @@ const LandingPage = () => {
       >
         <div className="bg-black bg-opacity-60 p-8 rounded-xl text-white max-w-2xl text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            Hostel <span className="text-indigo-400">Paraíso</span>
+            Hostel <span className="text-indigo-400">Pearl</span>
           </h1>
           <p className="text-lg md:text-xl mb-6">
             Conforto e aventura em um só lugar.
