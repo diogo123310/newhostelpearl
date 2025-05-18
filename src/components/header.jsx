@@ -12,7 +12,7 @@ export default function Header() {
           <a href="#quartos" className="hover:text-indigo-400 transition">
             ROOMS
           </a>
-          <a href="#contactos" className="hover:text-indigo-400 transition">
+          <a href="#services" className="hover:text-indigo-400 transition">
             SERVICES
           </a>
           <a href="#about" className="hover:text-indigo-400 transition">
